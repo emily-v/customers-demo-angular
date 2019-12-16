@@ -1,0 +1,7 @@
+<!-- Examples to show data and event binding:
+<h1 [hidden]="!isVisible">{{ title }}</h1>
+<button (click)="changeVisibility()">Show/Hide</button> -->
+<h1>{{ title }}</h1>
+
+<!-- passes people from parent to child component via @Input property -->
+<app-customers-list [customers]="people"></app-customers-list>
